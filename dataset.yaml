@@ -3,87 +3,82 @@
 dataset_name: IMSRGB-D
 
 task:
-
-* RGB-D instance segmentation
-* object-level 3D perception
-* task-oriented geometric representation
+  - RGB-D instance segmentation
+  - object-level 3D perception
+  - task-oriented geometric representation
 
 description: >
-IMSRGB-D is an industrial multi-scale RGB-D dataset collected from real
-production-line scenarios. Each sample contains rectified stereo image pairs,
-stereo-derived disparity maps, and aligned instance mask annotations.
+  IMSRGB-D is an industrial multi-scale RGB-D dataset collected from real
+  production-line scenarios. Each sample contains rectified stereo image pairs,
+  stereo-derived disparity maps, and aligned instance mask annotations.
 
 modalities:
-left_view_rgb:
-description: Rectified left-view RGB image.
-usage: Network input for RGB-D instance segmentation.
+  left_view_rgb:
+    description: Rectified left-view RGB image.
+    usage: Network input for RGB-D instance segmentation.
 
-right_view_image:
-description: Rectified right-view image.
-usage: Used only for stereo disparity generation.
+  right_view_image:
+    description: Rectified right-view image.
+    usage: Used only for stereo disparity generation.
 
-disparity:
-description: Stereo-derived disparity map aligned with the left-view RGB image.
-usage: Network input as the depth-related geometric modality.
+  disparity:
+    description: Stereo-derived disparity map aligned with the left-view RGB image.
+    usage: Network input as the depth-related geometric modality.
 
-instance_mask:
-description: Instance mask annotation aligned with the left-view RGB image and disparity map.
-usage: Ground truth for instance segmentation.
+  instance_annotation:
+    description: Instance mask annotation aligned with the left-view RGB image and disparity map.
+    usage: Ground truth annotation for instance segmentation.
 
 network_input:
-
-* left_view_rgb
-* disparity
+  - left_view_rgb
+  - disparity
 
 right_view_usage:
-
-* stereo_disparity_generation_only
+  - stereo_disparity_generation_only
 
 target_groups:
-Manipulable_Instance:
-- Tray
+  Manipulable_Instance:
+    - Tray
 
-Fixed_Infrastructure:
-- CNC_Machine
-- Industrial_Robot
-- Material_Stand
-- Robot_Control_Cabinet
-- Tool_Cabinet
+  Fixed_Infrastructure:
+    - CNC_Machine
+    - Industrial_Robot
+    - Material_Stand
+    - Robot_Control_Cabinet
+    - Tool_Cabinet
 
 categories:
-
-0: CNC_Machine
-1: Industrial_Robot
-2: Material_Stand
-3: Robot_Control_Cabinet
-4: Tool_Cabinet
-5: Tray
+  0: CNC_Machine
+  1: Industrial_Robot
+  2: Material_Stand
+  3: Robot_Control_Cabinet
+  4: Tool_Cabinet
+  5: Tray
 
 statistics:
-total_rgbd_samples: 770
-total_instances: 3255
-train_samples: 541
-val_samples: 99
-test_samples: 130
+  total_rgbd_samples: 770
+  total_instances: 3255
+  train_samples: 541
+  val_samples: 99
+  test_samples: 130
 
 sample_organization:
-description: >
-Each sample is organized by a shared sample ID. Files with the same sample ID
-correspond to the same scene.
+  description: >
+    Each sample is organized by a shared sample ID. Files with the same sample ID
+    correspond to the same scene.
 
-example:
-left_image: samples/images/left/sample_0001.png
-right_image: samples/images/right/sample_0001.png
-disparity: samples/disparity/sample_0001.png
-mask: samples/masks/sample_0001.png
-label: samples/labels/sample_0001.txt
+  example:
+    left_image: samples/images/left/sample_0001.jpg
+    right_image: samples/images/right/sample_0001.jpg
+    disparity: samples/disparity/sample_0001.jpg
+    label: samples/labels/sample_0001.txt
 
 release_status:
-current_release:
-- dataset_description
-- category_definition
-- data_structure
-- annotation_format
-- representative_samples
+  current_release:
+    - dataset_description
+    - category_definition
+    - data_structure
+    - annotation_format
+    - representative_samples
 
-complete_dataset: To be released upon acceptance of the paper.
+  complete_dataset: To be released upon acceptance of the paper.
