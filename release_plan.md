@@ -49,6 +49,3 @@ The representative samples are available in this repository.
 
 The complete dataset will be released through this repository or an external long-term storage platform, with the download link provided here after acceptance of the paper.
 
-## Notes
-
-The source code of the proposed model is not publicly released at this stage.
