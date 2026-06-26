@@ -1,0 +1,222 @@
+[
+  {
+    "sample_id": "sample_0001",
+    "original_split": "train",
+    "original_id": "163",
+    "class_ids": "0,1,3",
+    "classes": "CNC_Machine,Industrial_Robot,Robot_Control_Cabinet",
+    "left_image": "images/left/sample_0001.jpg",
+    "right_image": "images/right/sample_0001.jpg",
+    "disparity": "disparity/sample_0001.jpg",
+    "label": "labels/sample_0001.txt"
+  },
+  {
+    "sample_id": "sample_0002",
+    "original_split": "train",
+    "original_id": "318",
+    "class_ids": "0,1,2,3,4",
+    "classes": "CNC_Machine,Industrial_Robot,Material_Stand,Robot_Control_Cabinet,Tool_Cabinet",
+    "left_image": "images/left/sample_0002.jpg",
+    "right_image": "images/right/sample_0002.jpg",
+    "disparity": "disparity/sample_0002.jpg",
+    "label": "labels/sample_0002.txt"
+  },
+  {
+    "sample_id": "sample_0003",
+    "original_split": "train",
+    "original_id": "267",
+    "class_ids": "0,1",
+    "classes": "CNC_Machine,Industrial_Robot",
+    "left_image": "images/left/sample_0003.jpg",
+    "right_image": "images/right/sample_0003.jpg",
+    "disparity": "disparity/sample_0003.jpg",
+    "label": "labels/sample_0003.txt"
+  },
+  {
+    "sample_id": "sample_0004",
+    "original_split": "train",
+    "original_id": "189",
+    "class_ids": "0,1,2,3",
+    "classes": "CNC_Machine,Industrial_Robot,Material_Stand,Robot_Control_Cabinet",
+    "left_image": "images/left/sample_0004.jpg",
+    "right_image": "images/right/sample_0004.jpg",
+    "disparity": "disparity/sample_0004.jpg",
+    "label": "labels/sample_0004.txt"
+  },
+  {
+    "sample_id": "sample_0005",
+    "original_split": "train",
+    "original_id": "351",
+    "class_ids": "0,1,2,3",
+    "classes": "CNC_Machine,Industrial_Robot,Material_Stand,Robot_Control_Cabinet",
+    "left_image": "images/left/sample_0005.jpg",
+    "right_image": "images/right/sample_0005.jpg",
+    "disparity": "disparity/sample_0005.jpg",
+    "label": "labels/sample_0005.txt"
+  },
+  {
+    "sample_id": "sample_0006",
+    "original_split": "train",
+    "original_id": "157",
+    "class_ids": "0,1,2,4",
+    "classes": "CNC_Machine,Industrial_Robot,Material_Stand,Tool_Cabinet",
+    "left_image": "images/left/sample_0006.jpg",
+    "right_image": "images/right/sample_0006.jpg",
+    "disparity": "disparity/sample_0006.jpg",
+    "label": "labels/sample_0006.txt"
+  },
+  {
+    "sample_id": "sample_0007",
+    "original_split": "train",
+    "original_id": "012",
+    "class_ids": "0,1,2,3,4",
+    "classes": "CNC_Machine,Industrial_Robot,Material_Stand,Robot_Control_Cabinet,Tool_Cabinet",
+    "left_image": "images/left/sample_0007.jpg",
+    "right_image": "images/right/sample_0007.jpg",
+    "disparity": "disparity/sample_0007.jpg",
+    "label": "labels/sample_0007.txt"
+  },
+  {
+    "sample_id": "sample_0008",
+    "original_split": "val",
+    "original_id": "672",
+    "class_ids": "5",
+    "classes": "Tray",
+    "left_image": "images/left/sample_0008.jpg",
+    "right_image": "images/right/sample_0008.jpg",
+    "disparity": "disparity/sample_0008.jpg",
+    "label": "labels/sample_0008.txt"
+  },
+  {
+    "sample_id": "sample_0009",
+    "original_split": "train",
+    "original_id": "506",
+    "class_ids": "5",
+    "classes": "Tray",
+    "left_image": "images/left/sample_0009.jpg",
+    "right_image": "images/right/sample_0009.jpg",
+    "disparity": "disparity/sample_0009.jpg",
+    "label": "labels/sample_0009.txt"
+  },
+  {
+    "sample_id": "sample_0010",
+    "original_split": "train",
+    "original_id": "567",
+    "class_ids": "5",
+    "classes": "Tray",
+    "left_image": "images/left/sample_0010.jpg",
+    "right_image": "images/right/sample_0010.jpg",
+    "disparity": "disparity/sample_0010.jpg",
+    "label": "labels/sample_0010.txt"
+  },
+  {
+    "sample_id": "sample_0011",
+    "original_split": "train",
+    "original_id": "464",
+    "class_ids": "5",
+    "classes": "Tray",
+    "left_image": "images/left/sample_0011.jpg",
+    "right_image": "images/right/sample_0011.jpg",
+    "disparity": "disparity/sample_0011.jpg",
+    "label": "labels/sample_0011.txt"
+  },
+  {
+    "sample_id": "sample_0012",
+    "original_split": "train",
+    "original_id": "376",
+    "class_ids": "0,1,2,3",
+    "classes": "CNC_Machine,Industrial_Robot,Material_Stand,Robot_Control_Cabinet",
+    "left_image": "images/left/sample_0012.jpg",
+    "right_image": "images/right/sample_0012.jpg",
+    "disparity": "disparity/sample_0012.jpg",
+    "label": "labels/sample_0012.txt"
+  },
+  {
+    "sample_id": "sample_0013",
+    "original_split": "train",
+    "original_id": "551",
+    "class_ids": "5",
+    "classes": "Tray",
+    "left_image": "images/left/sample_0013.jpg",
+    "right_image": "images/right/sample_0013.jpg",
+    "disparity": "disparity/sample_0013.jpg",
+    "label": "labels/sample_0013.txt"
+  },
+  {
+    "sample_id": "sample_0014",
+    "original_split": "val",
+    "original_id": "670",
+    "class_ids": "5",
+    "classes": "Tray",
+    "left_image": "images/left/sample_0014.jpg",
+    "right_image": "images/right/sample_0014.jpg",
+    "disparity": "disparity/sample_0014.jpg",
+    "label": "labels/sample_0014.txt"
+  },
+  {
+    "sample_id": "sample_0015",
+    "original_split": "train",
+    "original_id": "115",
+    "class_ids": "0,1,2,4",
+    "classes": "CNC_Machine,Industrial_Robot,Material_Stand,Tool_Cabinet",
+    "left_image": "images/left/sample_0015.jpg",
+    "right_image": "images/right/sample_0015.jpg",
+    "disparity": "disparity/sample_0015.jpg",
+    "label": "labels/sample_0015.txt"
+  },
+  {
+    "sample_id": "sample_0016",
+    "original_split": "train",
+    "original_id": "412",
+    "class_ids": "0,1,2,3",
+    "classes": "CNC_Machine,Industrial_Robot,Material_Stand,Robot_Control_Cabinet",
+    "left_image": "images/left/sample_0016.jpg",
+    "right_image": "images/right/sample_0016.jpg",
+    "disparity": "disparity/sample_0016.jpg",
+    "label": "labels/sample_0016.txt"
+  },
+  {
+    "sample_id": "sample_0017",
+    "original_split": "train",
+    "original_id": "218",
+    "class_ids": "0,1,2",
+    "classes": "CNC_Machine,Industrial_Robot,Material_Stand",
+    "left_image": "images/left/sample_0017.jpg",
+    "right_image": "images/right/sample_0017.jpg",
+    "disparity": "disparity/sample_0017.jpg",
+    "label": "labels/sample_0017.txt"
+  },
+  {
+    "sample_id": "sample_0018",
+    "original_split": "train",
+    "original_id": "606",
+    "class_ids": "5",
+    "classes": "Tray",
+    "left_image": "images/left/sample_0018.jpg",
+    "right_image": "images/right/sample_0018.jpg",
+    "disparity": "disparity/sample_0018.jpg",
+    "label": "labels/sample_0018.txt"
+  },
+  {
+    "sample_id": "sample_0019",
+    "original_split": "train",
+    "original_id": "550",
+    "class_ids": "5",
+    "classes": "Tray",
+    "left_image": "images/left/sample_0019.jpg",
+    "right_image": "images/right/sample_0019.jpg",
+    "disparity": "disparity/sample_0019.jpg",
+    "label": "labels/sample_0019.txt"
+  },
+  {
+    "sample_id": "sample_0020",
+    "original_split": "train",
+    "original_id": "571",
+    "class_ids": "5",
+    "classes": "Tray",
+    "left_image": "images/left/sample_0020.jpg",
+    "right_image": "images/right/sample_0020.jpg",
+    "disparity": "disparity/sample_0020.jpg",
+    "label": "labels/sample_0020.txt"
+  }
+]
